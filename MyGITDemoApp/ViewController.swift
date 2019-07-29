@@ -20,5 +20,8 @@ class ViewController: UIViewController {
     }
 
 
+    func again(){
+        print("stash now")
+    }
 }
 
