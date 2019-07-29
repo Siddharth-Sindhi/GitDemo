@@ -22,8 +22,8 @@ class ViewController: UIViewController {
     func swapValues( a:inout Int, b:inout Int){
         
         var c = a
-        a = b + 10
-        b = c + 20
+        a = b - 10
+        b = c - 20
         print("values swapped \(c)")
     }
 
