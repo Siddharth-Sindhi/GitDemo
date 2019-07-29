@@ -19,6 +19,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    func swapValues( a:inout Int, b:inout Int){
+        
+        var c = a
+        a = b
+        b = c
+        print("values swapped \(c)")
+    }
 
 }
 
