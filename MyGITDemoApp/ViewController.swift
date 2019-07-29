@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("testing commit on GIT")
         print("new comment")
+        print("new comment in development")
+        print("new comment in development")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
