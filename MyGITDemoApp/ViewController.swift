@@ -35,6 +35,14 @@ class ViewController: UIViewController {
         print("Now AGAIN function")
     }
     
+    func featureSwapValues( a:inout Int, b:inout Int){
+        
+        var c = a
+        a = b - 10
+        b = c - 20
+        print("values swapped \(c)")
+    }
+    
     
 }
 
