@@ -27,5 +27,14 @@ class ViewController: UIViewController {
         print("values swapped \(c)")
     }
 
+    func again(){
+        print("stash now")
+    }
+    
+    func nowAgain(){
+        print("Now AGAIN function")
+    }
+    
+    
 }
 
