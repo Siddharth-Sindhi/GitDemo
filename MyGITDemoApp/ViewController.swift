@@ -23,5 +23,11 @@ class ViewController: UIViewController {
     func again(){
         print("stash now")
     }
+    
+    func nowAgain(){
+        print("Now AGAIN function")
+    }
+    
+    
 }
 
